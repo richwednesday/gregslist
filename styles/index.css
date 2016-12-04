@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	padding: 80px;
+	margin: 0;
+}
+
+header {
+	padding-left: 12px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.top-nav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.nav-link {
+	color: purple;
+	font-size: 18px;
+	padding-left: 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.greg-logo h1 {
+	color: black;
+	font-size: 18px;
+	font-weight: normal;
+
+}
+
+
+.search-section {
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.search-section input {
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	height: 30px;
+	padding-left: 8px;
+	width: 400px;
+}
+
+.search-section button {
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	font-size: 17px;
+	height: 30px;
+	vertical-align: bottom;
+	width: 50px;
+}
+
+.search-icon {
+	height: 100%;
+}
+
+.pages {
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 30px;
+}
+
+.pages-button {
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 15px;
+}
+
+.pages-display {
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 25px;
+}
+
+.listings {
+	padding: 0;
+}
+
+.listings a {
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.listings li {
+	color: #999;
+	list-style: none;
+	margin-bottom: 15px;
+}

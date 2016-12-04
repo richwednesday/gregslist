@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Example</title>
+  <meta charset="utf-8">
+
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="greg-logo">
+			<h1>Greg's List</h1>
+		</a>
+		<nav class="top-nav">
+			<a href="#" class="nav-link">Post</a>
+			<a href="#" class="nav-link">Account</a>
+		</nav>
+	</header>
+
+	<section class="search-section">
+		<form action="#">
+			<label for="search">Search Jobs</label>
+			<input type="text" id="search" placeholder="Developer, designer, internship..." />
+			<button type="submit" class="search-button">
+				<img src="images/search.png" alt="search" class="search-icon"/>
+			</button>
+		</form>
+	</section>
+
+	<nav class="pages">
+		<a class="pages-button">&lt; prev</a>
+		<span class="pages-display">1 to 100 of 179</span>
+		<a class="pages-button">next &gt;</a>
+	</nav>
+
+	<main>
+		<ul class="listings">
+			<li>June 22 <a href="#">Technical Project Manager</a> Midtown East</li>
+			<li>June 21 <a href="#">Frontend Developer</a> SoHo</li>
+			<li>June 20 <a href="#">Senior Python Developer / Cofounder</a> Flatiron</li>
+		</ul>
+	</main>
+</body>
+</html>
